@@ -1,0 +1,117 @@
+section {
+    display: flex;
+    width: 600px;
+    border-radius: 16px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    font-family: sans-serif;
+    box-shadow: 4px 8px 12px 4px rgba(0, 0, 0, 0.2);
+}
+
+section>div.result {
+    flex: 1;
+    text-align: center;
+    color:hsl(0, 0%, 100%) ;
+    background-color:hsl(252, 100%, 67%) ;
+    border-radius: 16px;
+    padding-bottom: 16px;
+   
+}
+section>div.result>h2{
+    color: hsl(221, 100%, 96%);
+    font-size: 18px;
+    padding: 12px;
+}
+section>div.result>p{
+    color: hsl(221, 100%, 96%);
+    padding-inline: 42px;
+    line-height: 24px;
+    font-size: 15px;
+}
+section>div.result>div{
+    background-image: linear-gradient(hsl(241, 81%, 54%),hsl(252, 100%, 67%)); 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+}
+section>div.result>div>h1{
+    font-size: 56px;
+    padding-top: 32px;
+    margin: 0;
+}
+section>div.result>div>p{
+    color: hsl(221, 100%, 96%);
+    margin: 0;
+}
+section>div.summary {
+    flex: 1;
+  
+}
+section>div.summary>h2{
+    margin-inline: 24px;
+    font-size: 18px;
+    padding-top: 16px;
+}
+section>div.summary>div {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 24px;
+    margin-block: 8px;
+    font-size: 14px;
+    border-radius: 8px;
+    padding-inline: 16px;
+    padding-block: 0;
+}
+section>div.summary>div>h3>img{
+    height: 15px;
+}
+section>div.summary>.div1{
+    background-color:hsla(0, 100%, 67%, 0.05) ;
+}
+section>div.summary>.div1>h3{
+    color: hsl(0, 100%, 67%);
+}
+section>div.summary>.div2{
+    background-color:hsla(39, 100%, 56%, 0.05) ;
+}
+section>div.summary>.div2>h3{
+    color: hsl(39, 100%, 56%);
+}
+section>div.summary>.div3{
+    background-color:hsla(166, 100%, 37%, 0.05) ;
+}
+section>div.summary>.div3>h3{
+    color: hsl(166, 100%, 37%);
+}
+section>div.summary>.div4{
+    background-color:hsla(234, 85%, 45%, 0.05);
+}
+section>div.summary>.div4>h3{
+    color: hsl(234, 85%, 45%);
+}
+section>div.summary>div>h4 {
+    display: inline;
+}
+
+section>div.summary>div>h4>p {
+    display: inline;
+    color: hsl(241, 100%, 89%);
+}
+section>div.summary>a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 12px;
+    background-color:hsl(224, 30%, 27%) ;
+    color: hsl(221, 100%, 96%); ;
+    margin-inline: 24px;
+    border-radius: 24px;
+    font-size: 14px;
+    margin-top: 24px;
+}
+section>div.summary>a:hover{
+    background-color: hsl(252, 100%, 67%);
+}
